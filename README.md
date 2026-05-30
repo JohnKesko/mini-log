@@ -15,7 +15,7 @@ cargo add mini-log
 ## Usage
 
 ```rust
-use mini-log::*;
+use mini_log::*;
 
 fn main() {
     LogMessage::new(Level::Warning, "My Message here");
@@ -130,7 +130,7 @@ If `LOG_TIME_FORMAT` is missing or invalid, `mini-log` uses the default timestam
 ## Examples
 
 ```rust
-use mini-log::*;
+use mini_log::*;
 
 fn main() {
     LogMessage::new(Level::Debug, "Debug message");
@@ -141,7 +141,7 @@ fn main() {
 ```
 
 ```rust
-use mini-log::*;
+use mini_log::*;
 
 fn main() {
     if is_enabled(Level::Debug) {
