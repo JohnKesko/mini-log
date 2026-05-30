@@ -1,0 +1,14 @@
+[package]
+name = "mini-log"
+version = "0.1.2"
+edition = "2024"
+description = "A tiny simple logging helper crate."
+authors = ["JohnKesko"]
+repository = "https://github.com/JohnKesko/mini-log"
+readme = "README.md"
+keywords = ["logging", "log"]
+categories = ["development-tools::debugging"]
+license = "MIT"
+
+[dependencies]
+chrono = "0.4.44"
